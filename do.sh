@@ -15,6 +15,6 @@ sudo service [80번포트를 사용해서 중지했던 프로그램] start
 # 80번포트를 사용해서 중지했던 프로그램이 apache인 경우 1번째줄을 service apache2 start 로 대체해주세요. 
 # 80번 포트를 사용해서 중지했던 프로그램이 nginx인 경우 1번째줄을 service nginx start 로 대체해주세요.
 
-sudo cp -r /etc/letsencrypt/live/[자신의 도메인을 입력해주세요] /etc/ssf/ 
+sudo ln -s /etc/letsencrypt/live/[자신의 도메인을 입력해주세요] /etc/ssf/ 
 
-# /etc/ssf/ 폴더 생성 및 ssl 인증서를 /etc/ssf 디렉터리로 이동합니다.
+# /etc/ssf 폴더에 접근하면 ssl 인증서가 있는 폴더로 접근할수있습니다. (심볼릭 링크)
