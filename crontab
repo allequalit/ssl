@@ -1,1 +1,1 @@
-0 0 2 * * /home/ubuntu/do.sh
+0 0 2 * * /etc/doit/do.sh
