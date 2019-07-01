@@ -9,7 +9,6 @@
 (프로그램 실행 완료후) ssl 인증서는 2개월마다 갱신됩니다. <br><br>
 # 실행하는 법 <br>
 이 명령어 [ <br><br>
-sudo bash <br><br>
 sudo wget https://sl.ael.kr/re.sh <br><br>
 sduo sh re.sh <br><br>
 ]를 실행한후<br><br> 
