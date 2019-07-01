@@ -3,12 +3,12 @@
 프로그램은 오픈소스이며 비상업적, 상업적 용도로 사용가능합니다. <br><br>
 실행 가능 운영체제 : Ubuntu 16.04 LTS 이상 <br><br>
 # 실행 하기전
-자신의 도메인을 서버에 연결해주세요. <br><br>
-코드에 적혀있는 설명을 보고 ssl.sh의 27,33,38,44번째 줄을 수정해주세요.<br><br>
-코드에 적혀있는 설명을 보고 do.sh의 1,12,18번째 줄을 수정해주세요.<br><br>
+자신의 도메인을 서버에 연결해주세요. <br><br> 
 # 주의사항 
 /etc/ssf/ 폴더에 접근하면 ssl 인증서가 있는 폴더로 접근할수있습니다. (심볼릭 링크)
 # 실행하는 법 <br>
 sudo bash <br><br>
-wget https://sl.ael.kr/ssl.sh <br><br>
-sudo sh ssl.sh<br><br>
+sudo wget https://sl.ael.kr/re.sh <br><br>  
+코드에 적혀있는 설명을 보고 /etc/doit/ssl.sh의 27,33,38,44번째 줄을 수정해주세요.<br><br>
+코드에 적혀있는 설명을 보고 /etc/doit/do.sh의 1,12,18번째 줄을 수정해주세요.<br><br> 
+sudo sh /etc/doit/ssl.sh <br><br> 
