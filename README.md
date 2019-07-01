@@ -9,6 +9,7 @@
 # 실행하는 법 <br>
 sudo bash <br><br>
 sudo wget https://sl.ael.kr/re.sh <br><br>  
+sduo sh re.sh <br><br>
 코드에 적혀있는 설명을 보고 /etc/doit/ssl.sh의 27,33,38,44번째 줄을 수정해주세요.<br><br>
 코드에 적혀있는 설명을 보고 /etc/doit/do.sh의 1,12,18번째 줄을 수정해주세요.<br><br> 
 sudo sh /etc/doit/ssl.sh <br><br> 
