@@ -8,9 +8,9 @@
 (프로그램 실행 완료후) /etc/ssf/ 폴더에 접근하면 ssl 인증서가 있는 폴더로 접근할수있습니다. (심볼릭 링크)
 # 실행하는 법 <br>
 이 명령을 실행한후 <br><br> 
-( sudo bash <br><br>
+[ sudo bash <br><br>
 sudo wget https://sl.ael.kr/re.sh <br><br>
-sduo sh re.sh  )<br><br> 
+sduo sh re.sh  ]<br><br> 
 코드에 적혀있는 설명을 보고 /etc/doit/ssl.sh의 27,33,38,44번째줄, /etc/doit/do.sh의 1,12,18번째줄을 수정해주세요.<br><br>
 코드 수정이 완료되면 아래에 있는 명령을 실행해주세요. <br><br>
 sudo sh /etc/doit/ssl.sh <br><br> 
