@@ -24,12 +24,12 @@ sudo ufw allow 80/tcp
 
 # 우분투 방화벽에서 80/tcp 포트를 오픈합니다.
 
-certbot certonly --standalone -d tw.ael.kr
+certbot certonly --standalone -d [자신의 도메인을 입력해주세요]
 
 # 예시 1 : 자신의 도메인이 ael.kr인 경우 9번째줄을 certbot certonly -standalone -d ael.kr 로 대체해주세요.
 #  Congratulations! Your certificate and chain have been saved at 이란 문구가 표시되면 ssl 인증서가 정상적으로 생성 되었습니다.
 
-cp -r /etc/letsencrypt/live/tw.ael.kr /etc/ssf/ 
+cp -r /etc/letsencrypt/live/[자신의 도메인을 입력해주세요] /etc/ssf/ 
 
 # /etc/ssf/ 폴더 생성 및 ssl 인증서를 /etc/ssf 디렉터리로 이동합니다.
 
