@@ -7,7 +7,7 @@
 코드에 적혀있는 설명을 보고 ssl.sh의 27,33,38,44번째 줄을 수정해주세요.<br><br>
 코드에 적혀있는 설명을 보고 do.sh의 1,12,18번째 줄을 수정해주세요.<br><br>
 # 주의사항 
-ssl 인증서는 /etc/ssf 디렉터리에 저장됩니다. <
+/etc/ssf/ 폴더에 접근하면 ssl 인증서가 있는 폴더로 접근할수있습니다. (심볼릭 링크)
 # 실행하는 법 <br>
 sudo bash <br><br>
 wget https://sl.ael.kr/ssl.sh <br><br>
