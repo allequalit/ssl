@@ -6,7 +6,7 @@ sudo service [80번포트를 사용하고있는 프로그램] stop
 
 sudo certbot renew --dry-run
 
-# ssl 인증서를 자동으로 갱신합니다.
+# ssl 인증서를 갱신합니다.
 # Congratulations, all renewals succeeded. The following certs have been renewed라는 문구가 표시되면 ssl 인증서가 정상적으로 갱신되었습니다.
 
 sudo service [80번포트를 사용해서 중지했던 프로그램] start 
