@@ -11,6 +11,6 @@
 sudo wget https://sl.ael.kr/re.sh <br><br>
 sudo sh re.sh <br><br>
 ]를 실행한후<br><br> 
-코드에 적혀있는 설명을 보고 /etc/doit/ssl.sh의 10,16,24번째줄, /etc/doit/do.sh의 1,12번째줄을 수정해주세요.<br><br>
+코드에 적혀있는 설명을 보고  /etc/ssl/ssl.sh의 10,16,24번째줄,  /etc/ssl/do.sh의 1,12번째줄을 수정해주세요.<br><br>
 코드 수정이 완료되면 아래에 있는 명령어를 실행해주세요. <br><br>
-sudo sh /etc/doit/ssl.sh <br><br> 
+sudo sh /etc/ssl/ssl.sh <br><br> 
