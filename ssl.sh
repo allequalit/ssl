@@ -32,6 +32,6 @@ sudo apt-get install cron -y
 
 #crontab 설치
  
-sudo crontab /etc/doit/crontab
+sudo crontab  /etc/ssl/crontab
 
 # 2달마다 ssl 인증서 자동 갱신 
