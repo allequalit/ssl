@@ -15,4 +15,4 @@ sudo git clone https://github.com/allequalit/ssl.git
 sudo cp -r ssl /etc/
 
 # 업데이트 목록 갱신 및 git 프로그램 설치, 아트 ssl 자동 생성 및 자동 갱신 소스코드 다운로드, 
-# 아트 ssl 자동 생성 및 자동 갱신 소스코드를 /etc/doit/ 디렉터리로 이동
+# 아트 ssl 자동 생성 및 자동 갱신 소스코드를 /etc/ssl/ 디렉터리로 이동
