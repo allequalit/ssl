@@ -4,7 +4,7 @@ auto-generate and auto-renew the lettersencrypt ssl certificate program (.sh) <b
 The program is open source and can be used for noncommercial and commercial purposes. <br><br>
 executable operating system : Ubuntu 16.04 LTS and Up <br><br>
 # before execution
-자신의 도메인을 서버에 연결해주세요. <br><br> 
+Please connect your domain to the server. <br><br> 
 # precautions
 After the program runs, the ssl certificate is renewed every two months. <br><br>
 # How tho Run <br>
