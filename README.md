@@ -10,7 +10,7 @@ After the program runs, the ssl certificate is renewed every two months. <br><br
 # How tho Run <br>
 sudo wget https://sl.ael.kr/re.sh <br><br>
 sudo sh re.sh <br><br>
-After executing the above command Please correct the 10,16,24 line of /etc/ssl/ssl.sh and 112 line of /etc/ssl/do.sh by looking at the description written in the code.<br><br>
+After executing the above command Please correct the 10,16,24 line of /etc/ssl/ssl.sh and 1,12 line of /etc/ssl/do.sh by looking at the description written in the code.<br><br>
 When code modification is complete, please run the command below. <br><br>
 sudo sh /etc/ssl/ssl.sh <br><br>  
 
