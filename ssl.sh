@@ -7,7 +7,7 @@ sudo ufw allow 80/tcp
 
 # 우분투 방화벽에서 80/tcp 포트를 오픈합니다.
 
-sudo service [80번포트를 사용하고있는 프로그램] stop 
+sudo service [Program using port number 80] stop 
 
 # Stop the program that is using port 80.
 # If the program using port 80 is apache, replace line 10 with service apache2 stop.
@@ -29,7 +29,7 @@ sudo certbot certonly --standalone -d [my domain]
 # ssl 인증서는 /etc/letsencrypt/live/[mydomain]/ 폴더에 있습니다.
 # 예시 : 자신으 도메인이 ael.kr인 경우 /etc/letsencrypt/live/ael.kr/ 폴더에 ssl 인증서가 있습니다.
 
-sudo service [80번포트를 사용해서 중지했던 프로그램] start 
+sudo service [The program that was stopped using port 80] start 
 
 # Use port 80 to start the program that you stopped.
 # If the program you stopped using port 80 is apache, replace line 32 with service apache2 start.
