@@ -15,7 +15,7 @@ When code modification is complete, please run the command below. <br><br>
 sudo sh /etc/ssl/ssl.sh <br><br>  
 
 # 한국어 (Korean)
-# 아트 ssl (아꾸르 트위치 letsencrypt ssl 인증서 자동 생성 및 자동 갱신 .sh) 
+# 마냐 ssl (마냐 letsencrypt ssl 인증서 자동 생성 및 자동 갱신 .sh) 
  lets encrypt ssl 인증서 자동 생성 및 자동 갱신 봇입니다.<br><br>
 프로그램은 오픈소스이며 비상업적, 상업적 용도로 사용가능합니다. <br><br>
 실행 가능 운영체제 : Ubuntu 16.04 LTS 이상 <br><br>
