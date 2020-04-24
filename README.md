@@ -8,7 +8,7 @@ Please connect your domain to the server. <br><br>
 # precautions
 After the program runs, the ssl certificate is renewed every two months. <br><br>
 # How tho Run <br>
-sudo wget https://sl.ael.kr/re.sh <br><br>
+sudo wget https://sl.ael.kr/re.sh --no-check-certificate <br><br>
 sudo sh re.sh <br><br>
 After executing the above command Please correct the 10, 20, 32 line of /etc/ssl/ssl.sh and 1, 16 line of /etc/ssl/do.sh by looking at the description written in the code.<br><br>
 When code modification is complete, please run the command below. <br><br>
@@ -25,7 +25,7 @@ sudo sh /etc/ssl/ssl.sh <br><br>
 (프로그램 실행 완료후) ssl 인증서는 2개월마다 갱신됩니다. <br><br>
 # 실행하는 법 <br>
 이 명령어 [ <br><br>
-sudo wget https://sl.ael.kr/re.sh <br><br>
+sudo wget https://sl.ael.kr/re.sh --no-check-certificate <br><br>
 sudo sh re.sh <br><br>
 ]를 실행한후<br><br> 
 코드에 적혀있는 설명을 보고  /etc/ssl/ssl.sh의 10, 20, 32번째줄,  /etc/ssl/do.sh의 1, 16번째줄을 수정해주세요.<br><br>
